@@ -1,6 +1,6 @@
 ﻿namespace BroodjesBestellen
 {
-    partial class Start
+    partial class FrmStart
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStart));
             this.label1 = new System.Windows.Forms.Label();
             this.BtnBestellen = new System.Windows.Forms.Button();
             this.BtnBestellingKijken = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(82, 96);
             this.label1.Name = "label1";
@@ -45,6 +47,7 @@
             // 
             // BtnBestellen
             // 
+            this.BtnBestellen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBestellen.Location = new System.Drawing.Point(82, 119);
             this.BtnBestellen.Name = "BtnBestellen";
             this.BtnBestellen.Size = new System.Drawing.Size(130, 21);
@@ -55,26 +58,30 @@
             // 
             // BtnBestellingKijken
             // 
+            this.BtnBestellingKijken.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBestellingKijken.Location = new System.Drawing.Point(82, 146);
             this.BtnBestellingKijken.Name = "BtnBestellingKijken";
             this.BtnBestellingKijken.Size = new System.Drawing.Size(130, 21);
             this.BtnBestellingKijken.TabIndex = 2;
             this.BtnBestellingKijken.Text = "Bestellingen bekijken";
             this.BtnBestellingKijken.UseVisualStyleBackColor = true;
+            this.BtnBestellingKijken.Click += new System.EventHandler(this.BtnBestellingKijken_Click);
             // 
-            // Start
+            // FrmStart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::BroodjesBestellen.Properties.Resources._815ddaa33301e6f9ff8e00d45ff4f63f;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = global::BroodjesBestellen.Properties.Resources._9200000093205076;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(309, 348);
+            this.ClientSize = new System.Drawing.Size(309, 344);
             this.Controls.Add(this.BtnBestellingKijken);
             this.Controls.Add(this.BtnBestellen);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "Start";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FrmStart";
             this.Text = "Start";
+            this.TransparencyKey = System.Drawing.SystemColors.WindowFrame;
             this.ResumeLayout(false);
             this.PerformLayout();
 

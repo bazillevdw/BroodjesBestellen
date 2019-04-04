@@ -16,7 +16,7 @@ namespace BroodjesBestellen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmBroodjes());
+            Application.Run(new FrmStart());
         }
     }
 }

@@ -73,9 +73,29 @@ namespace BroodjesBestellen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9200000093205076 {
+            get {
+                object obj = ResourceManager.GetObject("9200000093205076", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap munt_base_wit_3 {
             get {
                 object obj = ResourceManager.GetObject("munt_base_wit_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S811CBK {
+            get {
+                object obj = ResourceManager.GetObject("S811CBK", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
