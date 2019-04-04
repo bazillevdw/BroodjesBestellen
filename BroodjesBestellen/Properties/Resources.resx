@@ -118,10 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_815ddaa33301e6f9ff8e00d45ff4f63f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\815ddaa33301e6f9ff8e00d45ff4f63f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="munt_base_wit_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\munt_base-wit_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_815ddaa33301e6f9ff8e00d45ff4f63f" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\815ddaa33301e6f9ff8e00d45ff4f63f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9200000093205076" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9200000093205076.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

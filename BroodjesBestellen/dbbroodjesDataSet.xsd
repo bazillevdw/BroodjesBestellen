@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbbroodjesDataSet" targetNamespace="http://tempuri.org/dbbroodjesDataSet.xsd" xmlns:mstns="http://tempuri.org/dbbroodjesDataSet.xsd" xmlns="http://tempuri.org/dbbroodjesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbbroodjesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbbroodjesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BroodjesBestellen.Properties.Settings.GlobalReference.Default.dbbroodjesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="broodjeTableAdapter" GeneratorDataComponentClassName="broodjeTableAdapter" Name="broodje" UserDataComponentName="broodjeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbbroodjesConnectionString (Settings)" DbObjectName="dbbroodjes.broodje" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT naam FROM broodje</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbbroodjesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dbbroodjesDataSet" msprop:Generator_UserDSName="dbbroodjesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="broodje" msprop:Generator_TableClassName="broodjeDataTable" msprop:Generator_TableVarName="tablebroodje" msprop:Generator_TablePropName="broodje" msprop:Generator_RowDeletingName="broodjeRowDeleting" msprop:Generator_RowChangingName="broodjeRowChanging" msprop:Generator_RowEvHandlerName="broodjeRowChangeEventHandler" msprop:Generator_RowDeletedName="broodjeRowDeleted" msprop:Generator_UserTableName="broodje" msprop:Generator_RowChangedName="broodjeRowChanged" msprop:Generator_RowEvArgName="broodjeRowChangeEvent" msprop:Generator_RowClassName="broodjeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
