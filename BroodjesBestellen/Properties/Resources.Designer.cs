@@ -89,5 +89,15 @@ namespace BroodjesBestellen.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S811CBK {
+            get {
+                object obj = ResourceManager.GetObject("S811CBK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
